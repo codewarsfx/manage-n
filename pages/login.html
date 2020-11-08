@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,500;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css">
+        <script
+      src="https://kit.fontawesome.com/f673f835d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="hero">
+            <div class="hero-img-container">
+                <img src="../images/login.svg" alt="hero-img" class="hero-img">
+            </div>
+            <div class="hero-caption hero-caption--login">
+                <h3 class="hero-caption_header">Meet your soulMate</h3>
+                <p class="hero-caption_pargraph">
+                        Meet folks everywhere and Anywhere With over a million Users On our platform your heartthrob is a click away
+                </p>
+            </div>
+        </div>
+        <div class="form">
+            <div class="form-header">
+                <h3>Log In</h3>
+                <p>Not yet Registered? <a href="../index.html" class="login-active">Sign Up Now</a></p>
+            </div>
+            <div class="form-body">
+                <form action="#" novalidate>
+                 <div class="form-group">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control form-email" id="email" required />
+                            <i class="fas fa-exclamation-circle"></i><i class="fas fa-check-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" required/>
+                            <i class="fas fa-exclamation-circle"></i><i class="fas fa-check-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                       <button class="form-button" disabled>Register </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../login.js"></script
+</body>
+</html>
