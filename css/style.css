@@ -33,7 +33,11 @@ body {
   overflow-x: hidden;
 }
 
-.wrapper {
+html {
+  overflow-x: hidden;
+}
+
+.wrapper {  
   max-width: 1400px;
   margin: auto;
   width: 88%;
@@ -597,6 +601,9 @@ footer a {
     flex-direction: column;
     width: 100%;
   }
+  footer {
+    padding: 2em 0;
+  }
 
   .footer-links {
     width: 90%;
@@ -630,8 +637,8 @@ footer a {
 }
 
 
-
-/* footer * {
+/* 
+ footer * {
   border: 1px solid red;
 } */
 
